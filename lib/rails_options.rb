@@ -1,5 +1,8 @@
 require "rails_options/engine"
 
 module RailsOptions
-  # Your code goes here...
+  def self.app_root
+    root = RailsOptions::Engine.root
+    root.to_s
+  end
 end
