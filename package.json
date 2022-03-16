@@ -1,0 +1,21 @@
+{
+  "name": "rails_options",
+  "version": "1.0.0",
+  "description": "Rails options.",
+  "scripts": {
+    "dev":"cd test/dummy && rails server",
+    "build": "rm -rf *.gem && gem build *.gemspec",
+    "pubpush": "gem push *.gem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/rails_jwt_admin.git"
+  },
+  "keywords": [],
+  "author": "afeiship",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/rails_jwt_admin/issues"
+  },
+  "homepage": "https://github.com/afeiship/rails_jwt_admin#readme"
+}
