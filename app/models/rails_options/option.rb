@@ -1,5 +1,7 @@
 module RailsOptions
   class Option < ApplicationRecord
+    self.table_name = "rails_options"
+
     before_save :generate_slug
     validates_uniqueness_of :slug
 
