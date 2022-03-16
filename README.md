@@ -15,7 +15,7 @@ gem install rails_options
 rails g rails_options:install
 ```
 
-## curd
+## seeds
 ```rb
 RailsOptions::Option.create(slug: 'site_title', value: '网站标题')
 RailsOptions::Option.create(slug: 'site_slogan',  value: '网站口号')
