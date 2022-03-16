@@ -1,7 +1,7 @@
-require 'test_helper'
+require "test_helper"
 
-class RailsOptions::Test < ActiveSupport::TestCase
-  test "truth" do
-    assert_kind_of Module, RailsOptions
+class RailsOptionsTest < ActiveSupport::TestCase
+  test "it has a version number" do
+    assert RailsOptions::VERSION
   end
 end
