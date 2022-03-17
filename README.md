@@ -1,6 +1,10 @@
 # rails_options
 > Rails options.
 
+<p align="center">
+    <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0ckupo97kj21cm0bmjtv.jpg" width="800" />
+</p>
+
 ## installation
 ```shell
 # add to Gemfile
